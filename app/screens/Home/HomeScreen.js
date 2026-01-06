@@ -1,23 +1,20 @@
-import {useNavigation} from "@react-navigation/native";
-import {router} from "expo-router";
-import React, {useLayoutEffect, useState} from "react";
-import {FlatList, Image, Text, TouchableHighlight, View} from "react-native";
+import { Stack } from "expo-router/stack";
+import React, { useLayoutEffect } from "react";
+import { FlatList, Image, Text, TouchableHighlight, View } from "react-native";
 import MenuImage from "../../components/MenuImage/MenuImage";
-import {recipes} from "../../data/dataArrays";
-import {getCategoryName} from "../../data/MockDataAPI";
+import { recipes } from "../../data/dataArrays";
+import { getCategoryName } from "../../data/MockDataAPI";
 import styles from "./style";
-import {Stack} from "expo-router/stack";
 
 
-export default function HomeScreen() {
-    const navigation = useNavigation();
-
+export default function HomeScreen(props) {
+    const {navigation} = props
     useLayoutEffect(() => {
         navigation.setOptions({
             headerLeft: () => (
                 <MenuImage
                     onPress={() => {
-
+                        navigation.openDrawer()
                     }}
                 />
             ),
