@@ -1,9 +1,9 @@
-import { Stack } from "expo-router/stack";
-import React, { useLayoutEffect } from "react";
-import { FlatList, Image, Text, TouchableHighlight, View } from "react-native";
+import {Stack} from "expo-router/stack";
+import React, {useLayoutEffect} from "react";
+import {FlatList, Image, Text, TouchableHighlight, View} from "react-native";
 import MenuImage from "../../components/MenuImage/MenuImage";
-import { recipes } from "../../data/dataArrays";
-import { getCategoryName } from "../../data/MockDataAPI";
+import {recipes} from "../../data/dataArrays";
+import {getCategoryName} from "../../data/MockDataAPI";
 import styles from "./style";
 
 
@@ -23,7 +23,7 @@ export default function HomeScreen(props) {
     }, [navigation]);
 
     const onPressRecipe = (item) => {
-
+        navigation.navigate("Recipe", {item});
     };
 
     const renderRecipes = ({item}) => (

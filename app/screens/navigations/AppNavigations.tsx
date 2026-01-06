@@ -1,9 +1,11 @@
 import React from 'react';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {createDrawerNavigator} from '@react-navigation/drawer';
 import Details from "@/app/details";
 import HomeScreen from "@/app/screens/Home/HomeScreen";
 import DrawerContainer from "@/app/screens/DrawContainer/DrawContainer";
+import RecipeScreen from "@/app/screens/Recipe/RecipeScreen";
+import RecipeListScreen from "@/app/screens/RecipeList/RecipeListScreen";
 
 
 const Stack = createNativeStackNavigator();
@@ -14,12 +16,16 @@ function MainNavigator() {
             <Stack.Screen
                 name="Home"
                 component={HomeScreen}
-                options={{ title: '首页' }}
+                options={{title: '首页'}}
             />
+
             <Stack.Screen
                 name="Details"
                 component={Details}
-                options={{title : '详情页'}}/>
+                options={{title: '详情页'}}/>
+
+            <Stack.Screen name='Recipe' component={RecipeScreen}/>
+            <Stack.Screen name='RecipesList' component={RecipeListScreen}/>
         </Stack.Navigator>
     );
 }
@@ -38,7 +44,7 @@ function DrawerStack() {
             }}
             drawerContent={({navigation}) => <DrawerContainer navigation={navigation}/>}
         >
-            <Drawer.Screen name='Main' component={MainNavigator} />
+            <Drawer.Screen name='Main' component={MainNavigator}/>
         </Drawer.Navigator>
     );
 }
