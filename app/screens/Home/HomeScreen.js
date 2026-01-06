@@ -1,11 +1,13 @@
 import {useNavigation} from "@react-navigation/native";
 import {router} from "expo-router";
-import React, {useLayoutEffect} from "react";
+import React, {useLayoutEffect, useState} from "react";
 import {FlatList, Image, Text, TouchableHighlight, View} from "react-native";
 import MenuImage from "../../components/MenuImage/MenuImage";
 import {recipes} from "../../data/dataArrays";
 import {getCategoryName} from "../../data/MockDataAPI";
 import styles from "./style";
+import {Stack} from "expo-router/stack";
+
 
 export default function HomeScreen() {
     const navigation = useNavigation();
@@ -39,6 +41,10 @@ export default function HomeScreen() {
 
     return (
         <View>
+            <Stack.Screen options={{
+                title: "Home",
+            }}
+            />
             <FlatList vertical showsVerticalScrollIndicator={false} numColumns={2} data={recipes}
                       renderItem={renderRecipes} keyExtractor={(item) => `${item.recipeId}`}/>
         </View>
