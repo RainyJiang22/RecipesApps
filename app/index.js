@@ -8,7 +8,7 @@ export default function Index() {
     return (
         <View style={styles.container}>
             <Text>这里是首页</Text>
-            <Button title="跳转到详情页" onPress={() => router.navigate('/details')}/>
+            <Button title="跳转到详情页" onPress={() => router.navigate('/screens/Home/HomeScreen')}/>
         </View>
     )
 }
