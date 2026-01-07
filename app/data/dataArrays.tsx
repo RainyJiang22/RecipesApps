@@ -1,31 +1,31 @@
 export const categories = [
     {
         id: 3,
-        name: 'Cookies',
+        name: '点心甜品',
         photo_url:
             'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
     },
     {
         id: 1,
-        name: 'Mexican Food',
+        name: '川菜',
         photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
     },
     {
         id: 2,
-        name: 'Italian Food',
+        name: '粤菜',
         photo_url:
             'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
     },
     {
         id: 4,
-        name: 'Smoothies',
+        name: '汤品',
         photo_url:
             'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
     },
     {
         id: 0,
-        name: 'Pizza',
-        photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
+        name: '面食',
+        photo_url: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1000&q=80'
     },
 ];
 
@@ -33,7 +33,7 @@ export const recipes = [
     {
         recipeId: 122,
         categoryId: 3,
-        title: 'Oatmeal Cookies',
+        title: '桂花糖藕',
         photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
         photosArray: [
             'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
@@ -45,12 +45,12 @@ export const recipes = [
         time: '15',
         ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
         description:
-            '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+            '-- 将新鲜莲藕洗净，去皮后切成薄片，厚度约3-5毫米。切好的藕片立即放入清水中浸泡，防止氧化变黑。\n\n -- 锅中加入适量清水，大火烧开后放入藕片，焯水2-3分钟至半透明状态即可捞出。\n\n -- 准备糖浆：在锅中加入适量的白糖和清水，小火慢慢熬煮至糖完全溶解，形成透明糖浆。\n\n -- 将焯好水的藕片放入糖浆中，小火慢煮10分钟左右，让藕片充分吸收糖浆。最后撒上桂花，搅拌均匀即可。\n\n -- 煮好的桂花糖藕可以趁热食用，也可以放凉后食用，口感更加清甜爽脆。'
     },
     {
         recipeId: 3,
         categoryId: 4,
-        title: 'Triple Berry Smoothie',
+        title: '银耳莲子羹',
         photo_url:
             'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
         photosArray: [
@@ -65,12 +65,12 @@ export const recipes = [
             [60, '1/2 lbs'],
             [61, '1/2 liters'],
         ],
-        description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
+        description: '将所有食材放入锅中，加入适量清水，大火煮沸后转小火慢炖至银耳软糯，莲子熟透。可根据个人口味加入冰糖调味，趁热享用，营养丰富，滋润养颜。'
     },
     {
         recipeId: 2,
         categoryId: 3,
-        title: 'Vegan Cookies',
+        title: '绿豆糕',
         photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
         photosArray: [
             'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
@@ -92,12 +92,12 @@ export const recipes = [
             [21, '4']
         ],
         description:
-            '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
+            '-- 将绿豆提前浸泡一夜，然后蒸熟。将蒸好的绿豆用勺子压成泥状，过筛使其更加细腻。\n\n -- 在锅中加入适量的食用油，小火加热后倒入绿豆泥，不断翻炒至水分收干，绿豆泥变得细腻光滑。\n\n -- 根据个人口味加入适量白糖，继续翻炒至糖完全融化，绿豆泥呈团状。\n\n -- 将炒好的绿豆泥分成小份，搓成圆球状，然后放入模具中压制成型。\n\n -- 将成型的绿豆糕取出，放凉后即可食用。口感细腻，甜而不腻，是夏日消暑佳品。'
     },
     {
         recipeId: 3,
         categoryId: 3,
-        title: 'Pumpkin Spice Cookies',
+        title: '红豆沙月饼',
         photo_url:
             'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
         photosArray: [
@@ -123,12 +123,12 @@ export const recipes = [
             [29, '1 cup']
         ],
         description:
-            '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+            '-- 将红豆提前浸泡4小时以上，然后放入锅中加水煮至软烂。将煮好的红豆用搅拌机打成泥状，过筛去除豆皮。\n\n -- 在平底锅中加入适量食用油，小火加热后倒入红豆泥，不断翻炒至水分收干。根据个人口味加入白糖，继续翻炒至糖完全融化，红豆沙呈团状即可。\n\n -- 制作月饼皮：将中筋面粉、转化糖浆、花生油和枧水混合，揉成光滑的面团，静置松弛2小时。\n\n -- 将面团分成小份，包入适量的红豆沙馅料，收口捏紧。放入月饼模具中压制成型。\n\n -- 将成型的月饼放在烤盘上，表面刷上蛋黄液，放入预热好的烤箱中，180度烤制20分钟左右至表面金黄即可。'
     },
     {
         recipeId: 1,
         categoryId: 3,
-        title: 'Brownies',
+        title: '芝麻糊',
         photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
         photosArray: [
             'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
@@ -156,12 +156,12 @@ export const recipes = [
             [17, '2 quarts']
         ],
         description:
-            '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
+            '-- 将黑芝麻洗净，沥干水分后放入平底锅中，小火慢慢炒香至芝麻散发出香味，注意不要炒焦。炒好的芝麻放凉备用。\n\n -- 将炒好的芝麻和适量的糯米粉一起放入料理机中，打成细腻的粉末状。过筛使粉末更加细腻均匀。\n\n -- 在锅中加入适量清水，大火烧开后转小火。将芝麻粉慢慢倒入锅中，边倒边搅拌，防止结块。\n\n -- 继续小火煮制，不断搅拌至芝麻糊变得浓稠顺滑。根据个人口味加入适量白糖，搅拌均匀。\n\n -- 煮好的芝麻糊可以趁热食用，也可以放凉后食用。口感香甜浓郁，营养丰富，是传统的中式甜品。'
     },
     {
         recipeId: 4,
         categoryId: 1,
-        title: 'Perfect Fish Tacos',
+        title: '麻婆豆腐',
         photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
         photosArray: [
             'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
@@ -183,12 +183,12 @@ export const recipes = [
             [34, '1']
         ],
         description:
-            '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
+            '-- 将嫩豆腐切成2厘米见方的小块，放入淡盐水中浸泡10分钟，这样可以去除豆腥味并保持豆腐形状。将牛肉末用料酒、生抽、少量盐腌制15分钟。\n\n -- 在锅中加入适量食用油，小火加热后放入郫县豆瓣酱，炒出红油。加入牛肉末炒散，再加入蒜末、姜末和花椒粉，炒出香味。\n\n -- 加入适量清水或高汤，大火烧开后放入豆腐块，轻轻推动防止粘锅。加入生抽、老抽和少许白糖调味，转小火慢炖5分钟让豆腐入味。\n\n -- 用水淀粉勾芡，分2-3次加入，每次都要轻轻推动，让汤汁浓稠。最后撒上葱花和花椒粉即可出锅。\n\n -- 装盘后趁热享用，口感麻辣鲜香，豆腐嫩滑，是经典的川菜代表。'
     },
     {
         recipeId: 5,
         categoryId: 1,
-        title: 'Chicken Fajitas',
+        title: '宫保鸡丁',
         photo_url:
             'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
         photosArray: [
@@ -214,12 +214,12 @@ export const recipes = [
             [38, '1/2']
         ],
         description:
-            '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
+            '-- 将鸡胸肉切成1.5厘米见方的小丁，用料酒、生抽、少许盐和淀粉腌制20分钟。花生米提前炸好放凉备用。将干辣椒剪成小段，去掉辣椒籽。\n\n -- 调制宫保汁：将生抽、老抽、陈醋、白糖、料酒和少量水淀粉混合均匀备用。在锅中加入适量食用油，大火加热至七成热，下入鸡丁快速滑炒至变色后盛起。\n\n -- 锅中留底油，小火下入花椒粒炒出香味后捞出。放入干辣椒段和葱段炒香，再加入姜蒜末爆香。\n\n -- 下入滑炒好的鸡丁，快速翻炒均匀。倒入调好的宫保汁，大火快速翻炒至汁水收浓。最后加入炸好的花生米和葱花，翻炒均匀即可出锅。\n\n -- 装盘后即可享用，口感麻辣鲜香，鸡丁嫩滑，花生米酥脆，是经典的川菜名菜。'
     },
     {
         recipeId: 6,
         categoryId: 2,
-        title: 'Buffalo Pizza',
+        title: '广式叉烧包',
         photo_url:
             'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
         photosArray: [
@@ -245,12 +245,12 @@ export const recipes = [
             [46, '9 oz']
         ],
         description:
-            '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
+            '-- 制作叉烧馅：将叉烧肉切成小丁，锅中加入适量食用油，小火炒制。加入生抽、老抽、蚝油、白糖和少许料酒，炒出香味后加入水淀粉勾芡，放凉备用。\n\n -- 制作面皮：将中筋面粉、酵母、白糖和温水混合，揉成光滑的面团，盖上湿布发酵1小时至两倍大。将发酵好的面团排气，分成小剂子，擀成中间厚边缘薄的圆形面皮。\n\n -- 包制叉烧包：在面皮中间放入适量的叉烧馅料，将面皮边缘捏出褶皱，收口成包子形状。注意不要包得太紧，要留出空间让包子在蒸制时膨胀。\n\n -- 将包好的叉烧包放在蒸笼布或油纸上，静置醒发15-20分钟。锅中加水烧开，将蒸笼放入，大火蒸制12-15分钟。\n\n -- 蒸好后不要立即开盖，等待2-3分钟让温度慢慢下降，这样包子不会因为温差过大而塌陷。出锅后趁热享用，外皮松软，内馅香甜，是经典的广式点心。'
     },
     {
         recipeId: 0,
         categoryId: 0,
-        title: 'Classic Lasagna',
+        title: '北京炸酱面',
         photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
         photosArray: [
             "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
@@ -261,12 +261,12 @@ export const recipes = [
         time: '15',
         ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
         description:
-            '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+            '-- 制作炸酱：将五花肉切成小丁，锅中加入适量食用油，小火下入肉丁炒至出油，肉丁微黄。加入切好的葱姜蒜末，炒出香味。\n\n -- 倒入干黄酱和甜面酱（比例约为2:1），小火慢慢翻炒，注意不要炒焦。炒制过程中要不断搅拌，让酱和肉充分融合，炒出酱香味，这个过程需要15-20分钟。\n\n -- 如果酱太稠，可以适量加入清水或高汤调节稀稠度。最后加入少许白糖提鲜，炒至酱汁浓稠，油酱分离即可。\n\n -- 准备菜码：将黄瓜、胡萝卜、豆芽等蔬菜洗净，黄瓜和胡萝卜切丝，豆芽焯水后过凉备用。还可以准备一些其他的菜码如香椿、青豆等。\n\n -- 煮面条：将手擀面或机器面放入沸水中煮熟，捞出后过凉水（喜欢吃热的可以不过凉水）。将面条盛入碗中，放上菜码，浇上炸酱，搅拌均匀即可享用。口感浓郁，酱香四溢，是北京的传统美食。'
     },
     {
         recipeId: 7,
         categoryId: 2,
-        title: 'Spaghetti Carbonara',
+        title: '白切鸡',
         photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
         photosArray: [
             'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
@@ -285,12 +285,12 @@ export const recipes = [
             [4, '2 teaspoons']
         ],
         description:
-            '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
+            '-- 选择一只新鲜的三黄鸡或清远鸡，重量约1-1.5公斤。将鸡处理干净，去掉内脏，冲洗干净后备用。在锅中加入足够的水，放入几片姜和葱段，大火烧开。\n\n -- 水开后，提着鸡头将整只鸡放入沸水中，浸泡3秒钟后提起，重复3次（这个过程叫"三提三放"，可以让鸡皮收紧，保持肉质鲜嫩）。然后将整只鸡完全放入锅中，关火，盖上锅盖焖30-40分钟。\n\n -- 判断鸡肉是否熟透：用筷子在鸡腿最厚的地方戳一下，如果没有血水流出即可。将煮好的鸡取出，立即放入冰水中浸泡10分钟，这样可以让鸡皮更加爽脆，肉质更加紧实。\n\n -- 制作蘸料：将姜蒜切成末，放入小碗中。锅中加入少量食用油，烧热后淋在姜蒜末上，激出香味。加入生抽、香油和少许白糖，搅拌均匀即可。\n\n -- 将冷却好的鸡取出，沥干水分后斩成小块，摆盘。配上蘸料即可享用。鸡肉鲜嫩，鸡皮爽脆，蘸料香浓，是经典的粤菜名菜。'
     },
     {
         recipeId: 8,
         categoryId: 2,
-        title: 'Lazania',
+        title: '糖醋排骨',
         photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
         photosArray: [
             'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
@@ -318,362 +318,362 @@ export const recipes = [
             [57, '30 ounces']
         ],
         description:
-            '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
+            '-- 将新鲜排骨剁成5-6厘米长的段，用清水冲洗干净。锅中加水，放入排骨，大火烧开后撇去浮沫，继续煮5分钟捞出，用温水冲洗干净，沥干水分备用。\n\n -- 在锅中加入适量食用油，小火加热至五成热，下入排骨，中小火慢慢煎至两面微黄，捞出备用。锅中留底油，下入葱段、姜片和八角炒香。\n\n -- 放入煎好的排骨，加入料酒翻炒几下，然后加入生抽、老抽和适量的热水（水量要没过排骨），大火烧开后转小火慢炖30-40分钟，至排骨熟透软烂。\n\n -- 调制糖醋汁：在碗中放入适量的白糖、陈醋、生抽和少许老抽，搅拌均匀。将炖好的排骨中的汤汁留出一部分，其余大火收汁至浓稠。\n\n -- 倒入调好的糖醋汁，快速翻炒均匀，让每块排骨都裹上糖醋汁。最后撒上白芝麻和葱花即可出锅。口感酸甜适中，排骨软烂入味，色泽红亮，是经典的家常菜。'
     }
 ];
 
 export const ingredients = [
     {
         ingredientId: 0,
-        name: 'Oil',
+        name: '食用油',
         photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
     },
     {
         ingredientId: 1,
-        name: 'Salt',
+        name: '盐',
         photo_url:
             'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
     },
     {
         ingredientId: 2,
-        name: 'Russet potatoes',
+        name: '莲藕',
         photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
     },
     {
         ingredientId: 3,
-        name: 'Paprika',
+        name: '辣椒粉',
         photo_url:
             'https://image.freepik.com/free-photo/red-chilli-pepper-powder-isolated-white-background_55610-28.jpg'
     },
     {
         ingredientId: 4,
-        name: 'Black Pepper',
+        name: '白胡椒粉',
         photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
     },
     {
         ingredientId: 5,
-        name: 'Celery salt',
+        name: '花椒',
         photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
     },
     {
         ingredientId: 6,
-        name: 'Dried sage',
+        name: '桂皮',
         photo_url:
             'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
     },
     {
         ingredientId: 7,
-        name: 'Garlic powder',
+        name: '蒜蓉',
         photo_url:
             'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
     },
     {
         ingredientId: 8,
-        name: 'Ground allspice',
+        name: '八角',
         photo_url:
             'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/6/9/2695/allspice-berries-jamaican-ground-1.jpg'
     },
     {
         ingredientId: 9,
-        name: 'Dried oregano',
+        name: '干辣椒',
         photo_url: 'https://frutascharito.es/886-large_default/oregano.jpg'
     },
     {
         ingredientId: 10,
-        name: 'Dried basil',
+        name: '香菜',
         photo_url: 'https://www.honeychop.com/wp-content/uploads/2015/09/Dried-Mint.png'
     },
     {
         ingredientId: 11,
-        name: 'Dried marjoram',
+        name: '小茴香',
         photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71YATIBqBYL._SX355_.jpg'
     },
     {
         ingredientId: 12,
-        name: 'All-purpose flour',
+        name: '中筋面粉',
         photo_url:
             'https://images.assetsdelivery.com/compings_v2/seregam/seregam1309/seregam130900036.jpg'
     },
     {
         ingredientId: 13,
-        name: 'Brown sugar',
+        name: '红糖',
         photo_url:
             'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
     },
     {
         ingredientId: 14,
-        name: 'Kosher salt',
+        name: '生抽',
         photo_url:
             'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
     },
     {
         ingredientId: 15,
-        name: 'Whole chicken',
+        name: '整鸡',
         photo_url:
             'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
     },
     {
         ingredientId: 16,
-        name: 'Eggs',
+        name: '鸡蛋',
         photo_url:
             'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
     },
     {
         ingredientId: 17,
-        name: 'Quarts neutral oil',
+        name: '花生油',
         photo_url:
             'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-464433694_0.jpg%3Fitok%3DK42YR2GV&w=400&c=sc&poi=face&q=85'
     },
     {
         ingredientId: 18,
-        name: 'Water',
+        name: '清水',
         photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
     },
     {
         ingredientId: 19,
-        name: 'Onion Powder',
+        name: '五香粉',
         photo_url:
             'https://image.shutterstock.com/image-photo/mixed-spices-isolated-on-white-260nw-662383828.jpg'
     },
     {
         ingredientId: 20,
-        name: 'MSG',
+        name: '味精',
         photo_url:
             'https://img.freepik.com/free-photo/monosodium-glutamate-wood-spoon-white-background_55883-399.jpg?size=626&ext=jpg'
     },
     {
         ingredientId: 21,
-        name: 'Chicken Breast',
+        name: '鸡胸肉',
         photo_url:
             'https://us.123rf.com/450wm/utima/utima1602/utima160200063/53405187-raw-chicken-breast-fillets.jpg?ver=6'
     },
     {
         ingredientId: 22,
-        name: 'Onion chopped',
+        name: '大葱',
         photo_url: 'https://s3.envato.com/files/246703499/IMG_1752_5.jpg'
     },
     {
         ingredientId: 23,
-        name: 'Tomato paste',
+        name: '番茄酱',
         photo_url:
             'http://d3e1m60ptf1oym.cloudfront.net/45bab59a-363c-11e1-ab4e-bf4c2e0bb026/PANELA_xgaplus.jpg'
     },
     {
         ingredientId: 24,
-        name: 'Chilli Powder',
+        name: '郫县豆瓣酱',
         photo_url:
             'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
     },
     {
         ingredientId: 25,
-        name: 'Ground Beef',
+        name: '牛肉末',
         photo_url:
             'https://images.radio.com/kmoxam/s3fs-public/styles/nts_image_cover_tall_775x425/public/dreamstime_s_39607998.jpg?XCM.w1UGOp9sVKkWGQZe7_JIsRddxoIK&itok=3M6KcFLH&c=73fb6497175b4c1a5c79e3ede816656a'
     },
     {
         ingredientId: 26,
-        name: 'Can kidney beans, rinsed and drained ',
+        name: '红豆',
         photo_url:
             'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
     },
     {
         ingredientId: 27,
-        name: 'Large Tortillas',
+        name: '手擀面',
         photo_url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/NCI_flour_tortillas.jpg'
     },
     {
         ingredientId: 28,
-        name: 'Firtos',
+        name: '花生米',
         photo_url:
             'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
     },
     {
         ingredientId: 29,
-        name: 'Shredded cheddar',
+        name: '芝麻',
         photo_url:
             'https://image.shutterstock.com/image-photo/top-view-small-bowl-filled-260nw-284460308.jpg'
     },
     {
         ingredientId: 30,
-        name: 'Lime',
+        name: '柠檬',
         photo_url: 'https://ak8.picdn.net/shutterstock/videos/23271748/thumb/1.jpg'
     },
 
     {
         ingredientId: 31,
-        name: 'Ground cumin',
+        name: '孜然粉',
         photo_url:
             'https://image.shutterstock.com/image-photo/pile-cumin-powder-isolated-on-260nw-1193262853.jpg'
     },
     {
         ingredientId: 32,
-        name: 'Cayenne pepper',
+        name: '朝天椒',
         photo_url: 'https://ak7.picdn.net/shutterstock/videos/11461337/thumb/1.jpg'
     },
     {
         ingredientId: 33,
-        name: 'Flaky white fish',
+        name: '草鱼',
         photo_url:
             'https://image.shutterstock.com/image-photo/roach-river-fish-isolated-on-260nw-277764143.jpg'
     },
     {
         ingredientId: 34,
-        name: 'Avocado',
+        name: '豆腐',
         photo_url:
             'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
     },
     {
         ingredientId: 35,
-        name: 'Red Pepper Flakes',
+        name: '辣椒段',
         photo_url:
             'https://as1.ftcdn.net/jpg/02/06/55/10/500_F_206551074_mVczUrAWOSMaw8kR48FQDQBqDw47jCtL.jpg'
     },
     {
         ingredientId: 36,
-        name: 'Onions',
+        name: '洋葱',
         photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
     },
     {
         ingredientId: 37,
-        name: 'Green Pepper',
+        name: '青椒',
         photo_url: 'https://ak9.picdn.net/shutterstock/videos/4055509/thumb/1.jpg'
     },
     {
         ingredientId: 38,
-        name: 'Red Pepper',
+        name: '红椒',
         photo_url: 'https://ak9.picdn.net/shutterstock/videos/10314179/thumb/1.jpg'
     },
     {
         ingredientId: 39,
-        name: 'Pizza dough',
+        name: '面团',
         photo_url:
             'https://image.shutterstock.com/image-photo/fresh-raw-dough-pizza-bread-260nw-518950903.jpg'
     },
     {
         ingredientId: 40,
-        name: 'Ketchup sauce',
+        name: '老抽',
         photo_url:
             'https://st2.depositphotos.com/5262887/11050/i/950/depositphotos_110501208-stock-photo-ketchup-bowl-isolated-on-white.jpg'
     },
     {
         ingredientId: 41,
-        name: 'Hot Sauce',
+        name: '蚝油',
         photo_url:
             'https://media.istockphoto.com/photos/opened-can-of-spaghetti-sauce-on-a-white-background-picture-id497704752?k=6&m=497704752&s=612x612&w=0&h=JnL54buYu1Z3fGtd8uNdjFxiAKwlxoDluD6jbIfSaZI='
     },
     {
         ingredientId: 42,
-        name: 'Butter',
+        name: '猪油',
         photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
     },
     {
         ingredientId: 43,
-        name: 'Heavy Cream',
+        name: '料酒',
         photo_url:
             'https://media.istockphoto.com/photos/mayonnaise-in-bowl-isolated-on-white-background-picture-id614981116?k=6&m=614981116&s=612x612&w=0&h=LtbsI2HQXOTERYuP9YJ2PJfRF3W6DcyZ798fxMcQWC0='
     },
     {
         ingredientId: 44,
-        name: 'whole-milk plain yogurt',
+        name: '甜面酱',
         photo_url:
             'https://st.depositphotos.com/2757384/3317/i/950/depositphotos_33170129-stock-photo-pouring-a-glass-of-milk.jpg'
     },
     {
         ingredientId: 45,
-        name: 'Chesse',
+        name: '干黄酱',
         photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
     },
     {
         ingredientId: 46,
-        name: 'Mozzarella',
+        name: '叉烧肉',
         photo_url:
             'https://t3.ftcdn.net/jpg/02/06/73/98/500_F_206739841_suPu6qDPHlowFqx9qo8fLqV8sNevL2g3.jpg'
     },
     {
         ingredientId: 47,
-        name: 'celery stalks',
+        name: '芹菜',
         photo_url:
             'https://cdn4.eyeem.com/thumb/6d1b3957c7caa9b73c3e0f820ef854b931808139-1538043742765/w/750'
     },
     {
         ingredientId: 48,
-        name: 'Parmesan Chesse',
+        name: '生姜',
         photo_url: 'https://ak7.picdn.net/shutterstock/videos/3721877/thumb/1.jpg'
     },
     {
         ingredientId: 49,
-        name: 'pancetta',
+        name: '五花肉',
         photo_url:
             'https://previews.123rf.com/images/onlyfabrizio/onlyfabrizio1606/onlyfabrizio160600002/60198502-raw-stripes-of-pancetta-stesa-on-a-white-background.jpg'
     },
     {
         ingredientId: 50,
-        name: 'Spaghetti',
+        name: '面条',
         photo_url:
             'https://previews.123rf.com/images/mfron/mfron1204/mfron120400098/13306773-bunch-of-spaghetti-nudeln-isoliert-auf-wei%C3%9Fem-hintergrund.jpg'
     },
     {
         ingredientId: 51,
-        name: 'Garlic',
+        name: '大蒜',
         photo_url: 'https://image.freepik.com/free-photo/fresh-garlic-white-background_1339-17012.jpg'
     },
     {
         ingredientId: 52,
-        name: 'Lasagna noodles',
+        name: '排骨',
         photo_url:
             'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
     },
     {
         ingredientId: 53,
-        name: 'Italian sauce',
+        name: '陈醋',
         photo_url:
             'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
     },
     {
         ingredientId: 54,
-        name: 'Crushed Tomatoes',
+        name: '白糖',
         photo_url:
             'https://previews.123rf.com/images/merkulovnik/merkulovnik1406/merkulovnik140600100/28751626-crushed-tomato-isolated-on-white-background.jpg'
     },
     {
         ingredientId: 55,
-        name: 'Sugar',
+        name: '冰糖',
         photo_url:
             'https://previews.123rf.com/images/sommai/sommai1411/sommai141100034/33199985-sugar-cubes-in-a-bowl-isolated-on-white-background.jpg'
     },
     {
         ingredientId: 56,
-        name: 'minced fresh parsley',
+        name: '葱花',
         photo_url:
             'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
     },
     {
         ingredientId: 57,
-        name: 'ricotta cheese',
+        name: '银耳',
         photo_url:
             'https://previews.123rf.com/images/barkstudio/barkstudio1608/barkstudio160800351/61418602-ricotta-cheese-into-a-bowl-in-white-background.jpg'
     },
     {
         ingredientId: 58,
-        name: ' fennel seed',
+        name: '莲子',
         photo_url:
             'https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000227/88851299-close-up-the-fennel-seed-on-white-background.jpg'
     },
     {
         ingredientId: 59,
-        name: 'Banana',
+        name: '绿豆',
         photo_url:
             'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
     },
     {
         ingredientId: 60,
-        name: 'Frozen Straberries',
+        name: '糯米粉',
         photo_url:
             'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
     },
     {
         ingredientId: 61,
-        name: 'Greek Yogurt',
+        name: '水淀粉',
         photo_url:
             'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
     },
