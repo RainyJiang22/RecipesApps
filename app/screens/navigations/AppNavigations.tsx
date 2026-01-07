@@ -7,6 +7,7 @@ import DrawerContainer from "@/app/screens/DrawContainer/DrawContainer";
 import RecipeScreen from "@/app/screens/Recipe/RecipeScreen";
 import RecipeListScreen from "@/app/screens/RecipeList/RecipeListScreen";
 import CategoriesScreen from "@/app/screens/Categories/CategoriesScreen";
+import SearchScreen from "@/app/screens/Search/SearchScreen";
 
 
 const Stack = createNativeStackNavigator();
@@ -15,7 +16,7 @@ function MainNavigator() {
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name="首页"
+                name="Home"
                 component={HomeScreen}
                 options={{title: '首页'}}
             />
@@ -25,9 +26,10 @@ function MainNavigator() {
                 component={Details}
                 options={{title: '详情页'}}/>
 
-            <Stack.Screen name='食谱' component={RecipeScreen}/>
-            <Stack.Screen name='分类' component={CategoriesScreen}/>
-            <Stack.Screen name='食谱列表' component={RecipeListScreen}/>
+            <Stack.Screen name='Recipe' component={RecipeScreen} options={{title: '食谱'}}/>
+            <Stack.Screen name='Categories' component={CategoriesScreen} options={{title: '分类'}}/>
+            <Stack.Screen name='RecipesList' component={RecipeListScreen} options={{title: '食谱列表'}}/>
+            <Stack.Screen name='Search' component={SearchScreen} options={{title: '搜索'}}/>
         </Stack.Navigator>
     );
 }
