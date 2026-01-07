@@ -124,11 +124,11 @@ export default function RecipeScreen(props) {
 
                 <View style={styles.infoContainer}>
                     <ViewIngredientsButton
-                        // onPress={() => {
-                        //     let ingredients = item.ingredients;
-                        //     let title = "Ingredients for " + item.title;
-                        //     navigation.navigate("IngredientsDetails", {ingredients, title});
-                        // }}
+                        onPress={() => {
+                            let ingredients = item.ingredients;
+                            let title = "Ingredients for " + item.title;
+                            navigation.navigate("IngredientsDetails", {ingredients, title});
+                        }}
                     />
                 </View>
                 <View style={styles.infoContainer}>

@@ -8,6 +8,8 @@ import RecipeScreen from "@/app/screens/Recipe/RecipeScreen";
 import RecipeListScreen from "@/app/screens/RecipeList/RecipeListScreen";
 import CategoriesScreen from "@/app/screens/Categories/CategoriesScreen";
 import SearchScreen from "@/app/screens/Search/SearchScreen";
+import IngredientScreen from "@/app/screens/Ingredient/IngredientScreen";
+import IngredientsDetailsScreen from "@/app/screens/IngredientsDetails/IngredientsDetailsScreen";
 
 
 const Stack = createNativeStackNavigator();
@@ -30,6 +32,8 @@ function MainNavigator() {
             <Stack.Screen name='Categories' component={CategoriesScreen} options={{title: '分类'}}/>
             <Stack.Screen name='RecipesList' component={RecipeListScreen} options={{title: '食谱列表'}}/>
             <Stack.Screen name='Search' component={SearchScreen} options={{title: '搜索'}}/>
+            <Stack.Screen name='Ingredient' component={IngredientScreen} options={{title: '原料'}}/>
+            <Stack.Screen name='IngredientsDetails' component={IngredientsDetailsScreen} options={{title: '原料详情'}}/>
         </Stack.Navigator>
     );
 }
